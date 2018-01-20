@@ -1,0 +1,57 @@
+*,
+*:after,
+*:before{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+.cabecalho{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	background: url(paul-330307.jpg);
+}
+.cabecalho-menu{
+	width: 100%;
+	height: 5vh;
+	display: flex;
+	justify-content: flex-end;
+}
+.cabecalho-menuItem{
+	font-size: 20px;
+	color: #fff;
+	margin: 7px;
+}
+.cabecalho-caixa{
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	flex-flow: row wrap;
+	color: #fff;
+}
+.cabecalho-caixaTitulo{
+	width: 100%;
+	text-align: center;
+}
+.cabecalho-caixaParagrafo{
+	width: 100%;
+	text-align: center;
+}
+.conteudo{
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	flex-flow: row wrap;
+}
+.conteudo-paragrafo{
+	width: 60%;
+}
+.conteudo-imagem{
+	width: 60%;
+}
